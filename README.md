@@ -1,11 +1,19 @@
 # XDC-Helpers
 
-### Overview
+### Installation
+
+```shell
+npm i xdc-helpers
+```
+
+### Quick Start
 
 ```javascript
+// 1. Import modules.
 import { ValidatorClient } from "xdc-helpers";
-
+// 2. Set up your client with desired chain & transport.
 const validator = new ValidatorClient();
+// 3. Consume an action!
 const candidates = await validator.getCandidates();
 ```
 
@@ -26,4 +34,3 @@ const config = {
 };
 const validator = new ValidatorClient({ ...config });
 ```
-
