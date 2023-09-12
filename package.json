@@ -1,11 +1,10 @@
 {
   "name": "xdc-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "dependencies": {
     "viem": "^1.10.9"
   },
-  "main": "./src/index.js",
   "repository": "https://github.com/GalaxySciTech/XDC-Helpers.git",
   "author": "Galaxy <30950645+GalaxySciTech@users.noreply.github.com>",
   "license": "MIT"
