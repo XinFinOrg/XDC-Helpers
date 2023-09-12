@@ -1,6 +1,6 @@
 {
   "name": "xdc-helpers",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "dependencies": {
     "viem": "^1.10.9"
