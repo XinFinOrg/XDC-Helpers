@@ -15,7 +15,7 @@ export default class Client {
     this.abi = config?.abi || "";
 
     const chain = defineChain({
-      id: config.chainId,
+      id: Number(config.chainId),
       name: "XDC",
       network: "XDC",
       nativeCurrency: {
