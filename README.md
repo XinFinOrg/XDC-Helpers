@@ -25,6 +25,5 @@ const config = {
   privateKey: "0x.....", // private key of your wallet
 };
 const validator = new ValidatorClient({ ...config });
-const candidates = await validator.getCandidates();
 ```
 
