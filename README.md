@@ -7,6 +7,9 @@ const validator = new ValidatorClient();
 const candidates = await validator.getCandidates();
 ```
 
+All configurations have default values, if you want to check,click
+[here](https://github.com/XinFinOrg/XDC-Helpers/blob/the-first-version-for-sdk/src/config/index.js "defaultConfig")
+
 ### Customize
 
 ```javascript
@@ -22,3 +25,4 @@ const config = {
 const validator = new ValidatorClient({ ...config });
 const candidates = await validator.getCandidates();
 ```
+
