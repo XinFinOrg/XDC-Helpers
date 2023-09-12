@@ -1,6 +1,6 @@
 # XDC-Helpers
 
-XDC-Helpers is a robust Node.js SDK designed to facilitate interactions with the liteCSC and fullCSC contracts on the chain. With a streamlined setup process and easy-to-use functionalities, it simplifies the process of requesting the validator on the chain. Here's a quick guide to get you started:
+XDC-Helpers is a robust Node.js SDK designed to facilitate interactions with the validator、liteCSC and fullCSC contracts on the chain. With a streamlined setup process and easy-to-use functionalities, it simplifies the process of requesting the validator on the chain. Here's a quick guide to get you started:
 
 ## Installation
 
