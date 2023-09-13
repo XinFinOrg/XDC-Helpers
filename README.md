@@ -37,7 +37,6 @@ import { ValidatorClient } from "xdc-helpers";
 const config = {
   rpcUrl: "https://....", // Specify the RPC URL of the chain
   chainId: 0, // Indicate the chain ID of the chain
-  abi: [], // Define the ABI of the contract
   contractAddress: "0x....", // Provide the contract address of the client
   privateKey: "0x.....", // Enter the private key of your wallet
 };

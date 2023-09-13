@@ -3,7 +3,7 @@ import Client from "./client.js";
 
 export default class ValidatorClient extends Client {
   constructor(config = {}) {
-    config.abi = config?.abi || validatorConfig.abi;
+    config.abi = validatorConfig.abi;
     config.rpcUrl = config?.rpcUrl || validatorConfig.rpcUrl;
     config.contractAddress =
       config?.contractAddress || validatorConfig.contractAddress;

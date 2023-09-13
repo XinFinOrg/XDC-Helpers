@@ -3,7 +3,7 @@ import { liteConfig } from "../config/index.js";
 
 export default class LiteClient extends Client {
   constructor(config = {}) {
-    config.abi = config?.abi || liteConfig.abi;
+    config.abi = liteConfig.abi;
     config.rpcUrl = config?.rpcUrl || liteConfig.rpcUrl;
     config.contractAddress =
       config?.contractAddress || liteConfig.contractAddress;

@@ -3,7 +3,7 @@ import { fullConfig } from "../config/index.js";
 
 export default class FullClient extends Client {
   constructor(config = {}) {
-    config.abi = config?.abi || fullConfig.abi;
+    config.abi = fullConfig.abi;
     config.rpcUrl = config?.rpcUrl || fullConfig.rpcUrl;
     config.contractAddress =
       config?.contractAddress || fullConfig.contractAddress;
